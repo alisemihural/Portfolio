@@ -4,12 +4,19 @@ import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Hero = () => {
+  
+  // const isFirefox = navigator.userAgent.toLowerCase().includes('firefox');
+  // if (isFirefox){
+  //   document.body.classList.add('firefox');
+  // } else {
+
+  // }
   return (
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Ali</h1>
         <p className={styles.description}>
-        I'm a sophomore computer science student with four years of programming experience, specializing in full-stack development using React, Django and Spring Boot. Reach out if you'd like to learn more!
+        I'm a sophomore computer science student with four years of programming experience, specializing in backend development using Django and Spring Boot. Reach out if you'd like to learn more!
         </p>
         <a href="mailto:asu25@drexel.edu" className={styles.contactBtn}>
           Contact Me
