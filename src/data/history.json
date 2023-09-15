@@ -9,8 +9,7 @@
       "Designed the database and item system using SQLite",
       "Created a web game using Godot"
     ],
-    "imageSrc": "history/drexel.png",
-    "site": ""
+    "imageSrc": "history/drexel.png"
   },
   {
     "role": "Team Lead",
@@ -18,7 +17,7 @@
     "startDate": "Jan, 2022",
     "endDate": "Jun, 2022",
     "experiences": [
-      "Designed a mobile app using Android Studio",
+      "Designed the Smart Water mobile app using Android Studio",
       "Worked on Arduino/NodeMCU", 
       "Created the database with Firebase"
     ],

@@ -51,6 +51,7 @@
   background-size: 100% 0;
   background-repeat: no-repeat;
   transition: 0.4s;
+  max-width: 600px;
 }
 
 .aboutItem:hover {
@@ -58,14 +59,15 @@
 }
 
 .aboutItem h3 {
-  font-size: 25px;
+  font-size: 27px;
   font-weight: 600;
   margin-left: 25px;
 }
 
 .aboutItem p {
-  font-size: 25px;
+  font-size: 22px;
   margin-left: 25px;
+  
 }
 
 @media screen and (max-width: 830px) {

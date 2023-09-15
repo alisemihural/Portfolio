@@ -17,20 +17,19 @@ export const About = () => {
         <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>Backend Development</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
+                I'm have experience developing fast and optimised back-end systems
                 and APIs
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/browserIcon.png")} alt="Cursor icon" />
+            <img src={getImageUrl("about/databaseIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>Data Managment</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+                I'm skilled in designing, implementing, and managing databases to support efficient data storage and retrieval in backend systems.
               </p>
             </div>
           </li>
