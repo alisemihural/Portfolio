@@ -1,0 +1,39 @@
+[
+  {
+    "role": "Team Member/Product Manager",
+    "organisation": "Drexel University Design Project",
+    "startDate": "Jan, 2023",
+    "endDate": "Jun, 2023",
+    "experiences": [
+      "Developed the backend using Django", 
+      "Designed the database and item system using SQLite",
+      "Created a web game using Godot"
+    ],
+    "imageSrc": "history/drexel.png",
+    "site": ""
+  },
+  {
+    "role": "Team Lead",
+    "organisation": "Stockholm Junior Water Prize Project",
+    "startDate": "Jan, 2022",
+    "endDate": "Jun, 2022",
+    "experiences": [
+      "Designed a mobile app using Android Studio",
+      "Worked on Arduino/NodeMCU", 
+      "Created the database with Firebase"
+    ],
+    "imageSrc": "history/sjwp.png"
+  },
+  {
+    "role": "Team Member",
+    "organisation": "Teknofest Project",
+    "startDate": "Nov, 2020",
+    "endDate": "Feb, 2020",
+    "experiences": [
+      "Created the login system",
+      "Developed web study scheduler",
+      "Designed web mini-games"
+    ],
+    "imageSrc": "history/teknofest.png"
+  }
+]

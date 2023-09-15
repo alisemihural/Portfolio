@@ -1,0 +1,21 @@
+:root {
+  /* Colours */
+
+  --color-text: #fff;
+  --color-primary: #C3073F;
+  --color-secondary: rgba(78, 78, 80);
+  --color-dark: #6F2232;
+  --color-darker: #04152d;
+  --color-bg: #1A1A1D;
+  --color-topdown-menu: 78, 78, 80;
+
+  /* --color-text: #fff;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #04152d;
+  --color-topdown-menu: 25, 55, 109; */
+
+  /* Fonts */
+  --font-roboto: "Roboto";
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Study Quest",
+    "imageSrc": "projects/project.png",
+    "description": "Study Quest is a platform for students to study, earn in-game items and play.",
+    "skills": ["Django", "React", "SQLite"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Ozde-Okul",
+    "imageSrc": "projects/project.png",
+    "description": "Ozde-okul is a platform to aid students academically during COVID-19 pandemic.",
+    "skills": ["Javascript", "HTML", "CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Smart Water",
+    "imageSrc": "projects/project.png",
+    "description": "Smart Water Project is a smart household system that helps to reduce unnecessary household water usage.",
+    "skills": ["Android Studio", "Firebase", "Android"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]
