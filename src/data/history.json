@@ -1,5 +1,17 @@
 [
   {
+    "role": "Team Member",
+    "organisation": "HackHarvard 2023",
+    "startDate": "Oct, 2023",
+    "endDate": "Oct, 2023",
+    "experiences": [
+      "Developed the backend using Next.js and Convex", 
+      "Crafted the page structure and general note-taking features in the backend",
+      "Implemented speech-to-text"
+    ],
+    "imageSrc": "history/hackharvard.png"
+  },
+  {
     "role": "Team Member/Product Manager",
     "organisation": "Drexel University Design Project",
     "startDate": "Jan, 2023",
@@ -22,17 +34,5 @@
       "Created the database with Firebase"
     ],
     "imageSrc": "history/sjwp.png"
-  },
-  {
-    "role": "Team Member",
-    "organisation": "Teknofest Project",
-    "startDate": "Nov, 2020",
-    "endDate": "Feb, 2020",
-    "experiences": [
-      "Created the login system",
-      "Developed web study scheduler",
-      "Designed web mini-games"
-    ],
-    "imageSrc": "history/teknofest.png"
   }
 ]
