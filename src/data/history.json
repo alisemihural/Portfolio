@@ -1,38 +1,27 @@
 [
   {
-    "role": "Team Member",
-    "organisation": "HackHarvard 2023",
+    "role": "Software Engineer Intern",
+    "organisation": "Mirka Investments, LLC",
     "startDate": "Oct, 2023",
-    "endDate": "Oct, 2023",
+    "endDate": "Present",
     "experiences": [
-      "Developed the backend using Next.js and Convex", 
-      "Crafted the page structure and general note-taking features in the backend",
-      "Implemented speech-to-text"
+      "Developed and optimized key features of the Mirka Investment's website using React and Spring Boot", 
+      "Utilized advanced data structures and algorithms to enhance the performance of back-end systems, achieving %20 increase in processing efficiency",
+      "Contributed to the development of a comprehensive financial recording system utilizing PostgreSQL, significantly enhancing the data accuracy and accessibility for streamlined financial management",
+      "Actively engaged in property development training sessions to acquire specialized industry knowledge, enhancing my proficiency in the real estate industry"
     ],
-    "imageSrc": "history/hackharvard.png"
+    "imageSrc": "history/mirkainvestment.png"
   },
   {
-    "role": "Team Member/Product Manager",
-    "organisation": "Drexel University Design Project",
-    "startDate": "Jan, 2023",
-    "endDate": "Jun, 2023",
+    "role": "Teaching Assistant",
+    "organisation": "Drexel University College of Computing & Informatics",
+    "startDate": "Oct, 2023",
+    "endDate": "Present",
     "experiences": [
-      "Developed the backend using Django", 
-      "Designed the database and item system using SQLite",
-      "Created a web game using Godot"
+      "Effectively graded and provided constructive feedback for assignments and projects for a diverse cohort of 52 students, contributing to their academic development and understanding of course material", 
+      "Monitored and analyzed student performance and engagement, delivering valuable insights to the lead instructor to inform teaching strategies and enhance overall course effectiveness",
+      "Participated in teaching assistant workshops to enhance my instructional techniques, furthering my ability to effectively contribute to student learning and engagement in the classroom"
     ],
     "imageSrc": "history/drexel.png"
-  },
-  {
-    "role": "Team Lead",
-    "organisation": "Stockholm Junior Water Prize Project",
-    "startDate": "Jan, 2022",
-    "endDate": "Jun, 2022",
-    "experiences": [
-      "Designed the Smart Water mobile app using Android Studio",
-      "Worked on Arduino/NodeMCU", 
-      "Created the database with Firebase"
-    ],
-    "imageSrc": "history/sjwp.png"
   }
 ]
