@@ -16,7 +16,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Ali</h1>
         <p className={styles.description}>
-        I am an aspiring software engineer currently pursuing a Bachelor's degree in Computer Science at Drexel University. <br/><br/>I have four years of programming experience, specializing in backend development using Django and Spring Boot.<br/><br/> Reach out if you'd like to learn more!
+        I am an aspiring software engineer currently pursuing a Bachelor's degree in Computer Science at Drexel University. <br/><br/>I have four years of programming experience, specializing in web development using Django, Spring Boot, React and PostgreSQL.<br/><br/> Reach out if you'd like to learn more!
         </p>
         <a href="mailto:asu25@drexel.edu" className={styles.contactBtn}>
           Contact Me
