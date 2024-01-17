@@ -4,12 +4,7 @@
     "organisation": "Mirka Investments, LLC",
     "startDate": "Oct, 2023",
     "endDate": "Present",
-    "experiences": [
-      "Developed and optimized key features of the Mirka Investment's website using React and Spring Boot", 
-      "Utilized advanced data structures and algorithms to enhance the performance of back-end systems, achieving %20 increase in processing efficiency",
-      "Contributed to the development of a comprehensive financial recording system utilizing PostgreSQL, significantly enhancing the data accuracy and accessibility for streamlined financial management",
-      "Actively engaged in property development training sessions to acquire specialized industry knowledge, enhancing my proficiency in the real estate industry"
-    ],
+    "experiences": [],
     "imageSrc": "history/mirkainvestment.png"
   },
   {
@@ -17,11 +12,7 @@
     "organisation": "Drexel University College of Computing & Informatics",
     "startDate": "Oct, 2023",
     "endDate": "Present",
-    "experiences": [
-      "Effectively graded and provided constructive feedback for assignments and projects for a diverse cohort of 52 students, contributing to their academic development and understanding of course material", 
-      "Monitored and analyzed student performance and engagement, delivering valuable insights to the lead instructor to inform teaching strategies and enhance overall course effectiveness",
-      "Participated in teaching assistant workshops to enhance my instructional techniques, furthering my ability to effectively contribute to student learning and engagement in the classroom"
-    ],
+    "experiences": [],
     "imageSrc": "history/drexel.png"
   }
 ]
