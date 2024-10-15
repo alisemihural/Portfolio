@@ -1,12 +1,12 @@
 :root {
   /* Colours */
 
-  --color-text: #fff;
-  --color-primary: #C3073F;
+  --color-text: black;
+  --color-primary: black;
   --color-secondary: rgba(78, 78, 80);
   --color-dark: #6F2232;
   --color-darker: #04152d;
-  --color-bg: #1A1A1D;
+  --color-bg: white;
   --color-topdown-menu: 78, 78, 80;
 
   /* --color-text: #fff;

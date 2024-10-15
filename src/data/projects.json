@@ -1,5 +1,13 @@
 [
   {
+    "title": "SpendWisely",
+    "imageSrc": "projects/spendWisely.png",
+    "description": "SpendWisely is a budgeting app that helps you to track your expenses and income.",
+    "skills": ["Flask", "React", "Bootstrap", "Defang", "PropelAuth", "Google News API"],
+    "demo": "https://alisemihural-frontend--3000.prod1.defang.dev",
+    "source": "https://github.com/alisemihural/spend-wisely"
+  },
+  {
     "title": "Minerva",
     "imageSrc": "projects/minerva.png",
     "description": "Minerva is a note-taking platform with builtin speech-to-text functionality for visually impaired people.",

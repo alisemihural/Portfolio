@@ -29,7 +29,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Data Managment</h3>
               <p>
-                I'm skilled in designing, implementing, and managing databases to support efficient data storage and retrieval in backend systems.
+                I'm skilled in designing, implementing, and managing databases to support efficient data storage and retrieval in backend systems
               </p>
             </div>
           </li>

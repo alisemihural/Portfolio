@@ -1,13 +1,16 @@
 @import "../../vars.css";
 
-.navbar {
+.navbar
+{
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 61px;
+  padding-bottom: 40px;
   z-index: 2;
   margin: 0 10%;
+  border-bottom: 1px solid rgb(10,10,10,0.2);
 }
 
 .menuBtn{
@@ -15,11 +18,10 @@
 }
 
 .title {
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
-
 }
 
 .menu {
@@ -39,7 +41,7 @@
 }
 
 .menuItems a {
-  font-size: 28px;
+  font-size: 20px;
   color: var(--color-text);
   text-decoration: none;
   transition: 0.2s;

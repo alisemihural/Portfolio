@@ -4,11 +4,12 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 49px;
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 5%;
 }
 
 .content {
@@ -20,13 +21,13 @@
 }
 
 .title {
-  font-size: 72px;
+  font-size: 60px;
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 1) 70%,
+    black 70%,
     rgba(255, 255, 255, 0.5) 100%
   );
   -webkit-text-fill-color: transparent;
@@ -35,17 +36,18 @@
 }
 
 .description {
-  font-size: 30px;
+  font-size: 20px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
+  max-width: 600px;
 }
 
 .contactBtn {
   text-decoration: none;
   background-color: var(--color-primary);
-  color: var(--color-text);
+  color: white;
   border-radius: 100px;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
@@ -55,12 +57,14 @@
 
 .contactBtn:hover{
   padding: 19px 28px;
-  font-size: 32px;
+  font-size: 21px;
 }
 
 .heroImg {
-  width: 42%;
+  width: 30%;
   z-index: 1;
+  filter: grayscale(100%);
+  margin-left: 20px;
 
   animation-name: floating;
   animation-duration: 3s;
@@ -78,48 +82,6 @@
   100% {
     transform: translate(0, -0px);
   }
-}
-
-.blur1 {
-  position: absolute;
-  width: 50vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 350px;
-  top: -128px;
-  left: -10vw;
-  border-radius: 764px;
-  background: rgba(var(--color-topdown-menu), 0.7);
-  filter: blur(100px);
-  z-index: 0;
-}
-
-.blur2 {
-  position: absolute;
-  width: 70vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 250px;
-  top: 246px;
-  right: -25vw;
-  border-radius: 764px;
-  background: rgba(var(--color-topdown-menu), 0.7);
-  filter: blur(100px);
-  z-index: 0;
-}
-
-.blur3 {
-  position: absolute;
-  width: 70vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 250px;
-  top: 1300px;
-  right: 15vw;
-  border-radius: 764px;
-  background: rgba(var(--color-topdown-menu), 0.3);
-  filter: blur(100px);
-  z-index: 0;
 }
 
 @media screen and (max-width: 830px) {

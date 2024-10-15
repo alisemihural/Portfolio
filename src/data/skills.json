@@ -4,20 +4,20 @@
     "imageSrc": "skills/django.png"
   },
   {
-    "title": "Spring Boot",
-    "imageSrc": "skills/springboot.png"
+    "title": "Flask",
+    "imageSrc": "skills/flask.png"
   },
   {
     "title": "React",
     "imageSrc": "skills/react.png"
   },
   {
-    "title": "PostgreSQL",
-    "imageSrc": "skills/postgresql.png"
+    "title": "Next.js",
+    "imageSrc": "skills/next.svg"
   },
   {
-    "title": "MySQL",
-    "imageSrc": "skills/mysql.png"
+    "title": "PostgreSQL",
+    "imageSrc": "skills/postgresql.png"
   },
   {
     "title": "HTML",

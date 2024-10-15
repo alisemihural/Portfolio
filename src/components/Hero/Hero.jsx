@@ -14,9 +14,9 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Ali</h1>
+        <h1 className={styles.title}>ALI URAL</h1>
         <p className={styles.description}>
-        I am an aspiring software engineer currently pursuing a Bachelor's degree in Computer Science at Drexel University. <br/><br/>I have four years of programming experience, specializing in web development and artificial intelligence.<br/><br/> Reach out if you'd like to learn more!
+        Aspiring software engineer pursuing a Bachelor's degree in Computer Science at Drexel University. Interested in AI and web technologies.
         </p>
         <a href="mailto:asu25@drexel.edu" className={styles.contactBtn}>
           Contact Me
