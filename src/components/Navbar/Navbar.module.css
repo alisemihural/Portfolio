@@ -1,65 +1,86 @@
 @import "../../vars.css";
 
 .navbar {
-  position: relative;
+  position: fixed; /* Fix the navbar to the left */
+  top: 0;
+  left: 0;
+  height: 100vh; /* Full height */
+  width: 26%; /* Set a fixed width */
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 61px;
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  padding: 20px;
   z-index: 2;
-  margin: 0 10%;
+  background-color: #ffffff; /* Background color */
+  border-right: 1px solid #ebebeb; /* Add a small line along the right side */
 }
 
-.menuBtn{
+.menuBtn {
   display: none;
 }
 
 .title {
-  font-size: 45px;
+  font-size: 32px;
   font-weight: 600;
   text-decoration: none;
-  color: var(--color-text);
-
+  color: #000000;
+  margin-bottom: 60px; /* Add some space between the title and menu */
+  margin-right: 90px;
+  letter-spacing: 2px;
+  font-family: "novecento-sans-wide", sans-serif;
 }
 
 .menu {
   display: flex;
+  flex-direction: column; /* Display items vertically */
+  align-items: center; /* Center items horizontally */
 }
 
 .menuItems {
   display: flex;
-  gap: 47px;
+  flex-direction: column; /* Display items in a column */
+  gap: 10px;
   list-style: none;
-
+  align-items: left; /* Center items horizontally */
+  margin-bottom: 100px;
 }
 
-.menuItems a:hover{
-  color: var(--color-primary);
-
+.menuItems a:hover {
+  color: #000000;
 }
 
 .menuItems a {
-  font-size: 28px;
-  color: var(--color-text);
+  font-size: 18px;
+  color: #767676;
   text-decoration: none;
   transition: 0.2s;
   background-repeat: no-repeat;
+  margin-right: 165px;
+  font-family: "ff-real-headline-pro-2", montserrat;
+  transition: color 0.5s;
 }
 
 @media screen and (max-width: 830px) {
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
+    position: relative;
+    height: auto;
+    width: 100%; /* Full width */
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
   }
 
   .menu {
     position: absolute;
-    right: 0;
-    margin-right: 10%;
+    top: 100%;
+    left: 0;
+    width: 100%;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center; /* Center items horizontally */
     gap: 11px;
     z-index: 3;
+    background-color: var(--color-bg);
   }
 
   .menuBtn {
@@ -70,7 +91,7 @@
   .menuItems {
     display: none;
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* Center items horizontally */
     gap: 13px;
     border-radius: 10px;
     background: rgb(25, 55, 109);
