@@ -16,7 +16,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>ALI URAL</h1>
         <p className={styles.description}>
-        Aspiring software engineer pursuing a Bachelor's degree in Computer Science at Drexel University. Interested in AI and web technologies.
+        Software engineer pursuing a Bachelor’s degree in Computer Science at Drexel University, with a focus on AI and web technologies, and experience in problem-solving across diverse platforms.
         </p>
         <a href="mailto:asu25@drexel.edu" className={styles.contactBtn}>
           Contact Me
